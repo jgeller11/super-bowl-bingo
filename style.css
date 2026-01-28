@@ -1,0 +1,36 @@
+body {
+    background-color: #2b2d2e;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 5fr);
+  gap: 2%;
+}
+
+.square {
+  aspect-ratio: 1/ 1;
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.inactive {
+  background-color: #1E1E1E;
+  color: #fff;
+}
+
+.inactive:hover {
+    background-color: #413a3a
+}
+
+.active {
+  background-color: #29325e;
+  color: #fff;
+}
+
+.active:hover {
+    background-color: #404b7f
+}
