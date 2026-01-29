@@ -11,6 +11,7 @@ body {
 .square {
   aspect-ratio: 1/ 1;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 5%;
   transition: 0.3s;
