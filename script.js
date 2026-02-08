@@ -161,21 +161,21 @@ function create_board(root_for_pats) {
     fyShuffle(football_unlikely);
     fyShuffle(non_football_likely);
     fyShuffle(non_football_unlikely);
-    for (let i = 0; i<8; i++){
+    for (let i = 0; i<5; i++){
         bingo_task_list[i] = football_likely.pop();
     }
     for (let i = 0; i<2; i++){
         if (root_for_pats) {
-            bingo_task_list[8+i] = pats_good.pop();
+            bingo_task_list[5+i] = pats_good.pop();
         } else {
-            bingo_task_list[8+i] = sea_good.pop();
+            bingo_task_list[5+i] = sea_good.pop();
         }
     }
-    for (let i = 0; i<2; i++){
-        bingo_task_list[i+10] = football_unlikely.pop();
+    for (let i = 0; i<4; i++){
+        bingo_task_list[i+7] = football_unlikely.pop();
     }
-    for (let i = 0; i<7; i++){
-        bingo_task_list[i+12] = non_football_likely.pop();
+    for (let i = 0; i<8; i++){
+        bingo_task_list[i+11] = non_football_likely.pop();
     }
     for (let i = 0; i<5; i++){
         bingo_task_list[i+19] = non_football_unlikely.pop();
