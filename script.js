@@ -110,6 +110,8 @@ function create_board(root_for_pats) {
         "American Idiot performed"
     ];
     var non_football_likely = [
+        "Interview clip with player's parent",
+        "Live reaction from player's parent",
         "Jesus ad",
         "Political ad",
         "Truck ad",
