@@ -1,9 +1,10 @@
-<!-- <!DOCTYPE HTML> -->
-
+<!DOCTYPE html>
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" id="style" type="text/css" href="style.css">
+<!-- <link rel="stylesheet" type="text/css" href="seahawks.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="patriots.css"> -->
 <title>super bowl bingo</title>
 <link rel="icon" type="image/x-icon" href="icon.png">
 <script type="text/javascript" src="script.js"></script>
@@ -15,6 +16,7 @@
 <!-- TODO: (primary) write many bingo clues -->
 <!-- TODO: (secondary) change style of bingo board to match team chosen -->
 <!-- TODO: (tertiary) could detect when a bingo has been obtained -->
+
 
 <div class="board" id="board">
     <div class="square inactive" id="square00" onclick="square_clicked(0,0)"></div>
@@ -47,6 +49,15 @@
 
 </div>
 
+
+<div id="introPopUp">
+    <h1>Super Bowl Bingo</h1>
+    <p>Select which team you're rooting for, and you'll receive an automatically generated bingo board to update throughout the night!</p>
+
+    <div id="sea_button" onclick="select_sea()">Seahawks</div>
+    <div id="pats_button" onclick="select_pats()">Patriots</div>
+    <!-- TODO: would be great to have emoji or even logos here -->
+</div>
 
 </body>
 
