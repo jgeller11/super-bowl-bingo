@@ -105,7 +105,9 @@ function create_board(root_for_pats) {
         "Fake punt/kick",
         "Player tries to hurdle another player",
         "Delay of game",
-        "12 men on the field"
+        "12 men on the field",
+        "Intentional grounding",
+        "American Idiot performed"
     ];
     var non_football_likely = [
         "Jesus ad",
@@ -123,12 +125,14 @@ function create_board(root_for_pats) {
         "2 part ad with setup and punchline minutes apart",
         "Broadcast shows shot of Boston skyline",
         "Broadcast shows shot of Golden Gate Bridge",
+        "Ad with Glinda and Elphaba",
         "Commentator mentions Olympics",
         "Ad featuring Seahawk and Patriot",
         "Bad Bunny performs NUEVAYoL",
         "Bad Bunny performs BAILE INoLVIDABLE",
         "Bad Bunny performs Tití Me Preguntó",
-        "Commentator draws on screen"
+        "Commentator draws on screen",
+        "Player mentions God/Jesus in interview"
     ];
     var non_football_unlikely = [
         "Six seven joke",
