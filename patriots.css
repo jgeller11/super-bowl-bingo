@@ -15,28 +15,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  border-width: 5px;
+  border: 8px;
+  border-style: solid;
   padding: 5%;
   transition: 0.3s;
-  font-family: Arial, Helvetica, sans-serif
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .inactive {
-  background-color: #eee;
-  /* background-color: #A5acaf; */
-  color: #C60C30;
-}
-
-.inactive:hover {
-    background-color: #fff;
+  /* background-color: #eee; */
+  background-color: #B0B7BC;
+  color: #002244;
+  border-color: #C60C30;
+  /* border-color: #002244; */
 }
 
 .active {
-  background-color: #002244;
-  color: #B0B7BC;
-}
-
-.active:hover {
-    background-color: #002244;
+  /* background-color: #002244; */
+  background-color: #C60C30;
+  color: #fff;
+  border-color: #B0B7BC;
 }
 
 

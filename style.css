@@ -15,6 +15,7 @@ body {
   align-items: center;
   padding: 5%;
   transition: 0.3s;
+  border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif
 }
 
@@ -57,13 +58,17 @@ body {
 }
 
 #sea_button {
+  font-size: 70px;
     display: inline-block;
     border-radius: 10px;
-    height: 50px;
+    height: 150px;
     padding: 5px;
     padding-right: 10px;
     padding-left: 10px;
-    background: #69BE28;
+    color: #A5acaf;
+    /* background: #69BE28; */
+    background: #002244;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,13 +76,16 @@ body {
   }
   
   #pats_button {
+    font-size: 70px;
     display: inline-block;
     border-radius: 10px;
-    height: 50px;
+    height: 150px;
     padding: 5px;
+    color: #002244;
+    background: #fff;
     padding-right: 10px;
     padding-left: 10px;
-    background: #002244;
+    
     justify-content: center;
     align-items: center;
     display: flex;

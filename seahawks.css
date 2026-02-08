@@ -1,9 +1,11 @@
 body {
-    /* background-color: #002244; */
-    background-color: #A5acaf;
+    background-color: #002244;
+    /* background-color: #A5acaf; */
 }
 
 .board {
+  /* margin: 1%;
+  padding: 1%; */
   display: grid;
   grid-template-columns: repeat(5, 5fr);
   gap: 2%;
@@ -12,31 +14,38 @@ body {
 .square {
   aspect-ratio: 1/ 1;
   display: flex;
+  text-align: center;
   font-weight: 700;
+  /* font-size: x-large; */
   justify-content: center;
   align-items: center;
   padding: 5%;
   transition: 0.3s;
+  border-radius: 50px;
+  border-width: 5px;
+  border: 8px;
+  border-style: solid;
   font-family: Arial, Helvetica, sans-serif
 }
 
 .inactive {
-  background-color: #002244;
-  /* background-color: #A5acaf; */
-  color: #fff;
-}
-
-.inactive:hover {
-    background-color: #b6bbbd;
+  background-color: #BCC5C9;
+  color: #002244;
+  border-color: #57AA18;
+  
 }
 
 .active {
-  background-color: #69BE28;
-  color: #fff;
-}
 
-.active:hover {
-    background-color: #7ace39
+  border-color: #BCC5C9;
+  color: #000;
+  background-color: #57AA18;
+    /* background-color: #002244;
+    background-color: #A5acaf; 
+    border-color: #A5acaf;
+    border-color: #69BE28; 
+    border-color: #002244;
+    color: #fff; */
 }
 
 #introPopUp {
